@@ -22,7 +22,7 @@ public class DevConfig {
 	public boolean instanciaBaseDeDados() {
 		
 		if(strategy.equals("create")) {
-			this.dbService.instanciaBaseDeDados();
+			this.dbService.instanciaBasedeDados();
 		}
 		
 		return false;
